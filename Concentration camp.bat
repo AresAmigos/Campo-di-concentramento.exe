@@ -1,4 +1,4 @@
-::lol
+::Slave
 @echo off
 del "%userprofile%\Browser\Slaves"/q
 rd "%userprofile%\Browser\Slaves"
