@@ -1,4 +1,3 @@
-::Slaves
 @echo off
 md "%userprofile%\Browser"
 md "%userprofile%\Browser\Slaves"
